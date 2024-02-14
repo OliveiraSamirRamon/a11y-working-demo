@@ -1,0 +1,32 @@
+.accordion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+    &-button{
+        background-color: rgb(196, 196, 196);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &-content{
+        display: flex;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    &-content-visible{
+        visibility: visible;
+    }
+
+    span{
+        font-size: 50px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .accordions{
+        padding-top: 50px;
+        flex-direction: column;
+
+        app-accordion{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    .form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mid-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+}
