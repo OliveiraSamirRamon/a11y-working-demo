@@ -1,32 +1,52 @@
 .accordion{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 50%;
 
-    &-button{
-        background-color: rgb(196, 196, 196);
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 50%;
+    
+    &-title{
         display: flex;
         justify-content: space-between;
-        border-radius: 10px;
-        
+
+        h2{
+            padding-left: 10px;
+            font-family: 'Kanit', serif;
+        }
+
+        span{
+            height: 50px;
+            width: 50px;
+            font-size: 50px;
+            transition: 500ms;
+        }
+
+        .icon-rotate{
+            transform:rotate(180deg);
+        }
+
         &:hover{
             cursor: pointer;
         }
     }
 
+
+
+
     &-content{
-        display: flex;
-        justify-content: center;
-        visibility: hidden;
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 500ms;
+        font-family: 'Kanit', serif;
+    }
+    
+    &-content > div{
+        overflow: hidden;
+    }
+    
+    &-content-open {
+        grid-template-rows: 1fr;
     }
 
-    &-content-visible{
-        visibility: visible;
-    }
-
-    span{
-        font-size: 50px;
-        padding: 8px;
-    }
 }

@@ -8,6 +8,8 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ButtonComponent } from './button/button.component';
 import { InputComponent } from './input/input.component';
 import { HeaderComponent } from './header/header.component';
+import { ImageComponent } from './image/image.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HeaderComponent } from './header/header.component';
     AccordionComponent,
     ButtonComponent,
     InputComponent,
-    HeaderComponent
+    HeaderComponent,
+    ImageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

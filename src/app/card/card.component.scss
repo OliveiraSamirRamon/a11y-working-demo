@@ -4,13 +4,16 @@
     border-radius: 10px;
     height: 500px;
     width: 500px;
-    background-color: rgb(129, 129, 129);
+    background-color: white;
+    box-shadow: 0 2px 2px -2px;
 
     h1{
         padding: 20px 0px 0px 20px;
+        font-family: 'Kanit', serif;
     }
 
     p{
         padding: 0px 0px 0px 20px;
+        font-family: 'Kanit', serif;
     }
 }
