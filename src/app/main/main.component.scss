@@ -22,12 +22,36 @@
     .form{
         display: flex;
         justify-content: center;
+        padding-top: 200px;
     }
 
     .mid-section{
         display: flex;
         justify-content: center;
         flex-direction: row;
+        padding-top: 50px;
+    }
+
+    .imagem{
+        display: flex;
+        margin-top: 10px;
+        
+
+        &-texto{
+            display: flex;
+            flex-direction: column;
+            align-content: end;
+            background-color: white; 
+            height: 500px; 
+            width: 500px;
+            justify-content: center;
+            padding-left: 56px;
+
+            h2{
+                font-family: 'Protest Strike', serif;
+                font-size: 50px;
+            }
+        }
     }
 
 }
