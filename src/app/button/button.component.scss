@@ -1,4 +1,14 @@
-.button{
-    display: flex;
-    justify-content: center;
+button{
+    border-radius: 10px;
+    height: 44px;
+    width: 81px;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 23px;
+    font-family: 'Kanit', serif;
+
+    &:active{
+        opacity: 0.5;
+    }
 }
