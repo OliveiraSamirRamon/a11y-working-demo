@@ -8,8 +8,14 @@ import { Component } from '@angular/core';
 export class AccordionComponent {
 
   showText: Boolean = false;
+  text: any = null
 
   open(){
     this.showText = !this.showText;
+    if(this.text == null)
+      this.text = 0;
+    else
+      this.text = null
   }
+
 }
