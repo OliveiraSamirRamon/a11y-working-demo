@@ -71,4 +71,5 @@ Cypress.Commands.add("checkPageA11y", (path) => {
     cy.visit(path);
     cy.injectAxe();
     cy.checkA11y(undefined, undefined, callback);
+    // cy.checkA11y({exclude: ["#ignorar"]}, {includedImpacts: ["moderate"]}, callback);
 });
