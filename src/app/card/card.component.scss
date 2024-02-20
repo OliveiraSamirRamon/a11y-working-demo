@@ -1,3 +1,5 @@
+@import "./../variables";
+
 .card{
     border-width: 1px;
     border-color: black;
@@ -9,11 +11,11 @@
 
     h1{
         padding: 20px 0px 0px 20px;
-        font-family: 'Kanit', serif;
+        font-family: $fonte;
     }
 
     p{
         padding: 0px 0px 0px 20px;
-        font-family: 'Kanit', serif;
+        font-family: $fonte;
     }
 }

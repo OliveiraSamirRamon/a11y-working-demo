@@ -1,11 +1,13 @@
+@import "./../variables";
+
+
 .main{
     display: flex;
     flex-direction: column;
 
     .cards{
-        display: flex;
+        @include flexCenter();
         flex-direction: row;
-        justify-content: center;
         gap: 20px;
     }
 
@@ -14,20 +16,18 @@
         flex-direction: column;
 
         app-accordion{
-            display: flex;
-            justify-content: center;
+            @include flexCenter();
         }
     }
     
     .form{
-        display: flex;
-        justify-content: center;
+        @include flexCenter();
         padding-top: 200px;
     }
 
     .mid-section{
-        display: flex;
-        justify-content: center;
+        @include flexCenter();
+
         flex-direction: row;
         padding-top: 50px;
 
@@ -42,13 +42,12 @@
         
 
         &-texto{
-            display: flex;
+            @include flexCenter();
             flex-direction: column;
             align-content: end;
             background-color: white; 
             height: 500px; 
             width: 500px;
-            justify-content: center;
             padding-left: 56px;
 
             h2{

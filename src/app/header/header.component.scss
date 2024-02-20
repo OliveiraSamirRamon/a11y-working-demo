@@ -1,6 +1,7 @@
+@import "./../variables";
+
 .header{
-    display: flex;
-    justify-content: center;
+    @include flexCenter();
     h1{
         font-family: 'Protest Riot', serif;
     }

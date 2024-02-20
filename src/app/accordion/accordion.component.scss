@@ -1,3 +1,6 @@
+
+@import "./../variables";
+
 .accordion{
 
     background-color: white;
@@ -12,7 +15,7 @@
 
         h2{
             padding-left: 10px;
-            font-family: 'Kanit', serif;
+            font-family: $fonte;
         }
 
         span{
@@ -38,7 +41,7 @@
         display: grid;
         grid-template-rows: 0fr;
         transition: grid-template-rows 500ms;
-        font-family: 'Kanit', serif;
+        font-family: $fonte;
     }
     
     &-content > div{
