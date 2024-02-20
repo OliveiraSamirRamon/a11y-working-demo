@@ -7,5 +7,6 @@ describe('template spec', () => {
 
   it('passes', () => {
     cy.checkPageA11y("http://localhost:4200/");
+    //cy.checkA11y();
   })
 })

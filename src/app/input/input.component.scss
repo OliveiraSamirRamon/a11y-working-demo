@@ -1,8 +1,10 @@
+@import "./../variables";
+
 .input{
     justify-content: center;
 
     h2{
-        font-family: 'Kanit', serif;
+        font-family: $fonte;
         margin-bottom: 0px;
     }
 
