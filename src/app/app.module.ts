@@ -10,6 +10,7 @@ import { InputComponent } from './input/input.component';
 import { HeaderComponent } from './header/header.component';
 import { ImageComponent } from './image/image.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     InputComponent,
     HeaderComponent,
     ImageComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule
