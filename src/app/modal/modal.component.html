@@ -1,0 +1,18 @@
+<app-button (click)="modalControl()">abrir modal</app-button>
+
+<div role="dialog" aria-modal="true" class="modal" [ngStyle]="{'display': isOpen ? 'block': 'none'}">
+    <div  class="modal-box" tabindex="0" >
+        <div class="modal-box-header">
+            <h2>MODAL </h2>
+            <span role="button" tabindex="0" aria-label="botão fechar" (click)="modalControl()" (keyup.enter)="modalControl()" class="material-symbols-outlined">
+                close
+            </span>
+        </div>
+        <p>
+            <ng-content></ng-content>
+        </p>
+        <div>
+            <app-button (click)="modalControl()">OK</app-button>
+        </div>
+    </div>
+</div>
