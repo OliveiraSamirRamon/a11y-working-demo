@@ -1,7 +1,7 @@
 button{
     border-radius: 10px;
     height: 44px;
-    width: 81px;
+    min-width: 81px;
     border: none;
     background: blue;
     color: white;
@@ -10,5 +10,9 @@ button{
 
     &:active{
         opacity: 0.5;
+    }
+
+    p{
+        padding: 0px 10px 0px 10px;
     }
 }
